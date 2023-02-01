@@ -1,7 +1,7 @@
 # Indicium DataScience - Cientista de Dados
 
 <h2>Proposta</h2>
-O propósito deste arquivo é fazer a análise de dados do arquivo 'desafio_manutencao_preditiva_treino' e, com o uso de Machine learning conseguir gerar uma previsão de resultados para um arquivo chamado de 'desafio_manutencao_preditiva_teste. A análise de dados e o processo de Machine Learning foram realizados utilizando a linguagem Python3.
+O propósito deste arquivo é fazer a análise de dados do arquivo 'desafio_manutencao_preditiva_treino' e, com o uso de Machine learning conseguir gerar uma previsão de resultados para um arquivo chamado de 'desafio_manutencao_preditiva_teste. A análise de dados e o processo de Machine Learning foram realizados utilizando a linguagem Python3 no Jupyter notebook.
 
 <h2>Busca de dados</h2>
 Para realizar o processo, o trabalho foi subdivido em diferentes partes. Durante a primeira parte, é feita a leitura dos dados desejados utilizando a biblioteca Pandas do Python. Esses dados foram salvos em duas variáveis diferentes, referentes aos arquivos.
@@ -22,6 +22,14 @@ Para ver o quão eficiente é a nossa árvore de decisão, utilizamos o novo con
 
 <h2>Arquivo de saída</h2>
 Iremos gerar o arquivo de saída depois de prevermos o resultado do nosso conjunto de teste original. Para isso, iremos recriar uma árvore de decisão com os mesmos critérios utilizados durante nosso experiemento anterior, mas, utilizando dessa vez todo o conjunto de treino que tinhamos originalmente. Após isso, iremos utilizá-la para gerar a estimativa do conjunto de teste, e por fim, utilizando o método to_csv da bibliotecas Pandas exportaremos esse arquivo para Csv. O arquivo Csv também se encontra em anexo.
-  
+
+<h2>Arquivos</h2>
+O arquivo 'desafio.ipynb' foi feito em Python utilizando jupyter notebook. Lá está contido o código principal, além de explicações acerca de cada parte importante do código.
+'EDA_report_generate.py' é um arquivo python contendo o código utilizado para gerar o relatório EDA. Este relatório é o arquivo 'Relatorio_de_EDA.html'.
+Os arquivos.
+Os arquivos 'desafio_manutencao_preditiva_teste.csv' e 'desafio_manutencao_preditiva_treino.csv' foram as bases de dado utilizadas.
+'predicted.csv' é o arquivo de saída, contendo as previsões de tipo de falha do conjunto de treino.
+Por fim, 'requirements.txt' possui todos os pacotes utilizados pelo programa.
+
 <h2>Observações importantes</h2>
 Durante todo o programa, podem ser vistas linhas de código comentadas. Essas linhas tem como propósito permitir que os dados sejam visualizados, ou, permitir que os arquivos como relatório de EDA ou gráficos sejam gerados no seu computador. Também foram utilizadas duas funções simples, gera_arvore, que recebe uma árvore de decisão e a base de dados com as colunas de treino e colunas a serem treinadas e gera a árvore de decisão e busca_arquivos que recebe o caminho de um arquivo csv e retorna esse arquivo. Vale ressaltar que em python, precisamos usar '\\' e não apenas '\' durante a escrita do caminho para evitar erros de execução.
