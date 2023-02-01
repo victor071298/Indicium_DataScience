@@ -22,8 +22,8 @@ def main():
     ##Buscando os Dados
     
     #Deve ser informado o Path em que os arquivos se encontram (lembrando que é necessário usar barras duplas no lugar de barras para evitar erros de leitura do arquivo)
-    conjunto_treino = busca_arquivos('Dados\\desafio_manutencao_preditiva_treino.csv')
-    conjunto_teste = busca_arquivos('Dados\\desafio_manutencao_preditiva_teste.csv')
+    conjunto_treino = busca_arquivos('desafio_manutencao_preditiva_treino.csv')
+    conjunto_teste = busca_arquivos('desafio_manutencao_preditiva_teste.csv')
     
     #Para visualizar o estado dos conjuntos de treino e teste, basta remover o comentário das duas linhas abaixo
     #display(conjunto_treino)
