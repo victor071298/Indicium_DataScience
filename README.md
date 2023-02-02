@@ -3,6 +3,9 @@
 <h2>Proposta</h2>
 O propósito deste arquivo é fazer a análise de dados do arquivo 'desafio_manutencao_preditiva_treino' e, com o uso de Machine learning conseguir gerar uma previsão de resultados para um arquivo chamado de 'desafio_manutencao_preditiva_teste. A análise de dados e o processo de Machine Learning foram realizados utilizando a linguagem Python3 no Jupyter notebook.
 
+<h2>Execução</h2>
+Para executar o programa, primeiro é necessário baixar e extrair os arquivos. Após isso, basta abrir a pasta em algum programa para execução como visual studio code. O primeiro passo antes de executar é digitar 'pip install -r requirements.txt' no seu prompt de comando uma vez no diretório correto para instalar os pacotes necessário para execução. Os arquivos de dados e o relatório de EDA são apenas para visualização, mas caso queira executar novamente o relatório devido a algum erro, basta executar o arquivo 'EDA_report_generate.py'. O arquivo 'Desafio.ipynb' é o principal e é lá que é feito o tratamento de dados, visualização e é gerado o arquivo de saída. Devido a isso seu funcionamento será melhor explicado em partes a seguir.
+
 <h2>Busca de dados</h2>
 Para realizar o processo, o trabalho foi subdivido em diferentes partes. Durante a primeira parte, é feita a leitura dos dados desejados utilizando a biblioteca Pandas do Python. Esses dados foram salvos em duas variáveis diferentes, referentes aos arquivos.
 
