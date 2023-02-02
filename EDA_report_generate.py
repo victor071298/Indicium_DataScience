@@ -1,6 +1,10 @@
 import pandas as pd
 from dataprep.eda import create_report
 
+#Função responsável por receber o caminho dos arquivos CSV desejados e retorná-los 
+def busca_arquivos(caminho_csv):
+    return pd.read_csv(caminho_csv)
+
 def main():
 
     conjunto_treino = busca_arquivos('desafio_manutencao_preditiva_treino.csv')
